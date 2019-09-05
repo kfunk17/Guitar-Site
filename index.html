@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML5 Layout</title>
+		
+		<script type="text/javascript" src="script.js">
+			alert("bye");
+			
+		</script>
+		<style type="text/css">
+
+		   html{
+			   height: 755px;
+		   }
+			header, section, footer, aside, nav, article, figure, figcaption {
+				display: block;}
+			body {
+				background-image: -webkit-gradient(linear, 0% 0%, 0% 10%, from(#8A1507), to(black));
+				background-position: center;
+				font-family: arial, Times, serif;
+				line-height: 1.4em;
+				margin: 0px;}
+			.nav {
+				width: 940px;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+				background-color: #ffffff;}
+			header {
+			
+				height: 160px;
+				background-image: url("guitar11.jpg");}
+			h1 {
+				text-indent: -9999px;
+				width: 940px;
+				height: 130px;
+				margin: 0px;}
+			nav {
+			    height: 30px;
+				text-align: center;}
+			 footer {
+				clear: both;
+				color: #ffffff;
+				background-color:black;
+				height: 30px;
+				text-align: center;}
+			nav ul {
+				margin: 0px;
+				padding: 5px 0px 5px 30px;}
+			nav li {
+				display: inline;
+				margin-right: 40px;}
+			nav li a {
+				color: #ffffff;}
+
+			nav li a:hover{
+				color:#d99d2e;
+			}
+		
+			section.info {
+				float: left;
+				width: 659px;
+				border-right: 1px solid #eeeeee;}
+			article {
+				
+				overflow: auto;
+				width: 100%;}
+			hgroup {
+				margin-top: 40px;
+				margin-bottom: 18px;}
+			figure {
+				float: left;
+				width: 290px;
+				height: 220px;
+				padding: 5px;
+				margin: 20px;
+				}
+			figcaption {
+				font-size: 90%;
+				text-align: left;
+				}
+				
+			aside {
+				width: 230px;
+				float: left;
+				padding: 0px 0px 0px 20px;}
+			aside section a {
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid #eeeeee;}
+			aside section a:hover {
+				color: #985d6a;
+				background-color: #efefef;}
+			a {
+				color: #8A1507;
+				text-decoration: none;}
+			h1, h2, h3 {
+				font-weight: normal;}
+			h2 {
+				margin: 10px 0px 5px 0px;
+				padding: 0px;}
+			h3 {
+				margin: 0px 0px 10px 0px;
+				color: #8A1507;
+				margin-bottom: 5px;}
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #8A1507;}
+			
+			p{
+				padding-right: 15px;
+			}
+			footer {
+				font-size: 80%;
+				margin-bottom:-30px;}
+				
+			section.video {
+				float: left;
+				clear: both;
+			}
+		
+			
+		</style>
+	
+	</head>
+	<body>
+		<div class="nav">
+			<header>
+				<h1>Custom Guitar</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html" class="current">Home</a></li>
+						<li><a href="">Classes</a></li>
+						<li><a href="">Activities</a></li>
+						<li><a href=""></a></li>
+					</ul>
+				</nav>
+			</header>
+			<section class="info">
+				<article>
+					<figure>
+						<!--Photos taken from Unsplash.com-->
+						<img src="guitar303.jpg" height="200px" width="280px" />
+						<figcaption>$1000</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Gibson Electric Guitar</h2>
+						<h3>Previously Owned</h3>
+					</hgroup>
+					<p>Previously owned, but a heck of a deal. It's a beauty to the eye with
+					its red and yellow gradient color. While it is previously owned it has been taken care of very well and 
+					is in great condition.
+					We offer many electric guitars with different shapes and styles.</p>
+					
+				</article>    
+				<article>
+					<figure>
+						<img src="guitar101.jpg" alt="Image" width= "280px";  height="200px";/>
+						<figcaption>$100 - $2000</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Fender Guitars</h2>
+						<h3>Brand New</h3>
+					</hgroup>
+					<p>We offer several different types of Fender guitars, including acoustic guitars, telecasters, and stratocasters. <br  /> Come check it out!</p>
+				</article>    
+			</section>
+			<aside>
+				<section class="popular-recipes">
+					<h2>Popular Brands</h2>
+					<a href="">Fender</a>
+					<a href="">Ibanez</a>
+					<a href="">Gibson</a>
+					<a href="">ESP</a>
+				</section>
+			
+		
+					
+	<section class="contact-details">
+					<h2>Contact</h2>
+					<p>Everyday Guitars<br />
+						7501 Walcox Street<br />
+						Lincoln, NE<br />
+						(402) 586-9915</p>
+				</section>
+			</aside>
+			
+		
+			
+			<footer>
+				&copy; 2017 Everyday Guitars
+			</footer>
+		</div>
+	</body>
+</html>
